@@ -183,28 +183,31 @@ span {
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 7);
 }
 
-.glarry {
+.slideshow {
     text-align: center;
     margin: 50px;
+    
 }
 
-.glarry .images {
+.slideshow .images {
     margin: 20px;
-    display: inline-flex;
+    /*display: inline-flex;*/
+    position: relative;
+
 }
 
-.glarry .images img {
+.slideshow .images img {
     height: 200px;
     width: 300px;
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 7);
 }
 
-.glarry .images img:hover{
+/*.slideshow .images img:hover{
     transform: translateZ(-5%);
     transition: 0.5s;
 }
 
-.glarry .images1{
+.slideshow .images1{
     margin: 20px;
     isplay: inline-flex;
 }
@@ -218,16 +221,15 @@ span {
 .glarry .images1 img:hover{
     transform: translateY(-5%);
     transition: 0.5s;
-}
+}*/
+
+
+
 
 .hp5 .form{
     font-size: 20px;
     margin: 50px;
     margin-left: 10%;
-    /*max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    font-size: 20px;*/
 }
 
 /*.hp5 .form input{
